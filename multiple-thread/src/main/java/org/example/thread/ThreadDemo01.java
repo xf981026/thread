@@ -1,6 +1,10 @@
 package org.example.thread;
 
 /**
+ * @author 徐帆
+ * @date 2022/12/20
+ */
+/**
  * 多线程的四种实现方式之一：通过继承 Thread 类
  * 怎么看是否实现了多线程：如果 myThread 调用的是 start()，那么打印结果将会让主线程和子线程穿插在一起；
  * 如果 myThread 调用的是 run()，那么打印结果永远是子线程执行完毕后，主线程再执行；
